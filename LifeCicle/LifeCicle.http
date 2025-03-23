@@ -1,0 +1,11 @@
+@LifeCicle_HostAddress = http://localhost:5216
+
+GET {{LifeCicle_HostAddress}}/weatherforecast/
+Accept: application/json
+
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=LUKA/shani;Database=LifeCicle;Trusted_Connection=True;MultipleActiveResultSets=true;"
+  }
+}
+
+###
